@@ -29,8 +29,8 @@ class Calculator:
 
     def __show_operator_code_request(self):
         print("\nChoose One of the Operator Codes below!!\n")
-        print("\tFor Addition Enter '1'\n\tFor Subtraction Enter '2'\n"
-              "\tFor Division Enter '3'\n\tFor Multiplication Enter '4'")
+        print("\tFor Addition, Enter '1'\n\tFor Subtraction, Enter '2'\n"
+              "\tFor Division, Enter '3'\n\tFor Multiplication, Enter '4'")
         try:
             operator = int(input("\nEnter here: "))
             self.operator_code = operator
@@ -42,7 +42,6 @@ class Calculator:
     def __get_inputs(self, first_number, second_number):
         self.first_no = first_number
         self.second_no = second_number
-
 
     def __get_operator(self, operator_code):
         self.operator_code = operator_code
